@@ -8,6 +8,7 @@
   </head>
 
   <body>
+  
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -43,7 +44,7 @@
       <div class="jumbotron">
         <h1>Sebastian Royal</h1>      
         <p>I will add more content when I feel like it</p> 
-        <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus  sagittis lacus vel augue laoreet rutrum faucibus.">
+        <button type="button" class="btn btn-default btn-lg" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus  sagittis lacus vel augue laoreet rutrum faucibus.">
           Popover on top
         </button>     
         <a href="#" class="btn btn-info btn-lg" data-toggle="collapse" data-target="#myWork" ><span class="glyphicon glyphicon-search"></span> Find my work</a>
@@ -55,17 +56,21 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="collapse" data-target="#githubWork">
             <span class="glyphicon glyphicon-transfer"></span> &nbsp; Github
           </button>
+          <div id="githubWork" class="collapse">
+            <P>links to each project I want people to see</P>
+            <p>with a brief description of what is going on</p>
+          </div>
         </div>
         <div class="col-md-3"> 
-          <button>Facebook</button>
+          <button type="button" class="btn btn-primary btn-lg">Facebook</button>
         </div>
         <div class="col-md-3"> 
-          <button>Twitter</button>
+          <button type="button" class="btn btn-primary btn-lg">Twitter</button>
         </div>
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
           <ul class="nav nav-pills nav-stacked">
             <li class="active"><a href="#">Home</a></li>
             <li class="dropdown">
@@ -79,7 +84,7 @@
             <li><a href="#">Menu 2</a></li>
             <li><a href="#">Menu 3</a></li>
           </ul>
-        </div>
+        </div> -->
         <div class="clearfix visible-lg"></div>
       </div>
     </div>
